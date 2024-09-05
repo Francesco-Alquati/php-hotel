@@ -39,6 +39,7 @@
         ],
 
     ];
+    
 
 ?>
 
@@ -51,6 +52,19 @@
     <title>Hotel</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Tutti gli hotel</h1>
+                <ul>
+                    <li><?php var_dump($hotels[0]);?></li>
+                    <li><?php var_dump($hotels[1]);?></li>
+                    <li><?php var_dump($hotels[2]);?></li>
+                    <li><?php var_dump($hotels[3]);?></li>
+                    <li><?php var_dump($hotels[4]);?></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
